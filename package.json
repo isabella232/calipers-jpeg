@@ -1,7 +1,7 @@
 {
-  "name": "calipers-png",
+  "name": "calipers-jpeg",
   "version": "0.1.0",
-  "description": "PNG plugin for calipers.",
+  "description": "JPEG plugin for calipers.",
   "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test istanbul cover _mocha -- test --recursive --timeout 15000",
@@ -10,30 +10,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/calipersjs/calipers-png.git"
+    "url": "https://github.com/calipersjs/calipers-jpeg.git"
   },
   "keywords": [
     "image",
     "size",
-    "png"
+    "jpeg"
   ],
   "author": "Marcus Gartner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/calipersjs/calipers-png/issues"
+    "url": "https://github.com/calipersjs/calipers/issues"
   },
-  "homepage": "https://github.com/calipersjs/calipers-png",
+  "homepage": "https://github.com/calipersjs/calipers-jpeg",
   "devDependencies": {
-    "chai": "^2.2.0",
-    "chai-as-promised": "^4.3.0",
-    "coveralls": "^2.11.2",
-    "eslint": "^1.9.0",
-    "eslint-config-lob": "^1.0.1",
-    "istanbul": "^0.3.13",
-    "mocha": "^2.1.0",
-    "mocha-lcov-reporter": "0.0.2"
+    "chai": "2.x.x",
+    "chai-as-promised": "4.x.x",
+    "coveralls": "2.x.x",
+    "eslint": "1.x.x",
+    "eslint-config-lob": "1.x.x",
+    "istanbul": "0.x.x",
+    "mocha": "2.x.x",
+    "mocha-lcov-reporter": "0.x.x"
   },
   "dependencies": {
-    "bluebird": "^2.9.13"
+    "bluebird": "3.x.x"
   }
 }
