@@ -1,6 +1,6 @@
 {
   "name": "calipers-jpeg",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "JPEG plugin for calipers.",
   "main": "lib/index.js",
   "scripts": {
@@ -35,5 +35,8 @@
   },
   "dependencies": {
     "bluebird": "3.x.x"
+  },
+  "peerDependencies": {
+    "calipers": "2.x.x"
   }
 }
